@@ -54,7 +54,7 @@ function Searched() {
           return(
             <div class='card' key={item.idMeal}>
               <div class='card-header'>
-                <img src={item.strMealThumb}></img>
+                <img src={item.strMealThumb} alt="Meal Thumbnail"></img>
               </div>
               <div class='card-body'>
                 <h1>{item.strMeal}</h1>
